@@ -1,0 +1,23 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": "airbnb",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "rules": {
+    "semi": "error",
+    "react/jsx-filename-extension": [0],
+    "no-console": "off",
+    "react/require-default-props": "off",
+    "no-underscore-dangle": "off",
+    "react/forbid-prop-types": "off",
+    "react/no-danger": "off",
+    "no-param-reassign": "off"
+  }
+}
